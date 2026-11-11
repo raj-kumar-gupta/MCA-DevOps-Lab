@@ -10,7 +10,7 @@ driver = webdriver.Chrome()
 
 try:
     # Open local login page
-    file_path = Path(__file__).resolve().parent / "Login.html"
+  file_path = Path(__file__).resolve().parent / "login.html"
     driver.get(file_path.as_uri())
 
     wait = WebDriverWait(driver, 10)
